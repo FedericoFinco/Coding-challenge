@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+h1 {
+    color: rgb(16, 219, 16);
+    padding-top: 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 65% ;
+    height: 90% ;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding-bottom: 5%;
+}
+
+.logo {
+    width: 250px;
+    padding-top: 90px;
+}
+
+.green-box {
+    background: rgb(16, 219, 16);
+    padding: 10px;
+    margin-left: 10% ;
+    margin-right: 10% ;
+}
+
+.general-info {
+    margin-left: 10%;
+    padding-top: 30px;
+}
+
+.owner{
+    color: white;
+    font-weight: bold; 
+    font-size: 24px;
+    padding-left: 7px;
+}
+
+.info{
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+    margin-top: 10px;
+    padding-bottom: 3px;
+}
+
+.gino-bar{
+    background: #f5b453;
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+    
+}
+
+.mike-bar{
+    background: #1EC31E;
+    height: 30px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.fede-bar{
+    background: #BE4141;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.myButton {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color:#ededed;
+    border-radius:15px;
+    border:1px solid #d6bcd6;
+    display:inline-block;
+    cursor:pointer;
+    color:black;
+    font-size:13px;
+    padding:4px 20px;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color:#bab1ba;
+}
